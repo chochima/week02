@@ -1,0 +1,53 @@
+.footer {
+    margin: 0px auto;
+    background-color: #F8F9FA;
+}
+
+
+.coupon-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #E8FEC5;
+}
+
+.coupon-bar h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    padding: 33.5px 24px 33.5px 0px;
+}
+
+
+.btn-text-only a {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 12px 25px;
+    margin: 24px 0px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #212529;
+}
+
+.btn-text-only a:hover {
+    background-color:#495057;
+}
+
+.band-footer {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 64px 0px 24px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    padding: 31px 0px 60px 0px;
+    border-top: 1px solid #DEE2E6;
+}
+.copyright p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 4px;
+}

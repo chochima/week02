@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1296px;
+    padding: 16px 0px;
+    margin: 0px auto;
+    background-color: #C0FA73;
+}
+.brand {
+    display: flex;
+}
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-right: 28px;   
+}
+
+.logo h1 {
+    font-family: "Mina", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4.4%;
+    padding: 9px 13px;
+
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.logo-shape {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 0;
+    background-color: #C0FA73;
+}
+
+
+.brand-navbar {
+    display: flex;
+}
+.brand-navbar li {
+    padding: 12px 20px;
+}
+.brand-navbar li a {
+    text-decoration: none;
+    color: #212529;
+}
+.brand-navbar li a:hover {
+    color: #6C757D;
+
+}
+.account {
+   margin: 0px 12px;
+}
+
+.account-icon {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  width: 24px;
+  height: 24px;
+}
+
+.bi-person {
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+.bi-person-fill {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.account-icon:hover .bi-person-fill {
+  opacity: 1;
+}
+
+.account-icon:hover .bi-person {
+  opacity: 0;
+}
+
+
+
+
